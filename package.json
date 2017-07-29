@@ -2,7 +2,7 @@
   "name": "nanocookie",
   "version": "0.0.0",
   "description": "nano vanilla.js cookie library",
-  "main": "index.js",
+  "main": "src/nanocookie.js",
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js",
     "test": "echo \"Error: no test specified\" && exit 1"
