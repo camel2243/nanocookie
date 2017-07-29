@@ -2,8 +2,8 @@
 > nano cookie operate library
 
 ![npm version](https://badge.fury.io/js/nanocookie.svg)
+![Coverage Status](https://coveralls.io/repos/camel2243/nanocookie/badge.svg?branch=master)
 
-(https://badge.fury.io/js/nanocookie)
 nano vanilla.js cookie set, get and delete libray
 
 nanocookie.min.js file size: 4KB
