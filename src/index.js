@@ -1,6 +1,6 @@
 'use strict';
 
-let cookie = require('./nanacookie.js');
+const cookie = require('./nanocookie.js');
 
 if(typeof window !== 'undefined') {
   window.nanocookie = cookie;
