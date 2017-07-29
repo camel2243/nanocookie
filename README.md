@@ -7,7 +7,7 @@
 
 nano vanilla.js cookie set, get and delete libray
 
-nanocookie.min.js file size: 4KB
+nanocookie.min.js file size smaller than 1KB
 
 ## Quick Start
 
