@@ -1,17 +1,21 @@
 {
   "name": "nanocookie",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "nano vanilla.js cookie library",
   "main": "src/nanocookie.js",
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/mocha --recursive tests/"
   },
   "author": "camel2243",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^7.2.3",
+    "chai": "^4.1.0",
     "eslint": "^4.3.0",
+    "jsdom": "^11.1.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^3.4.2",
     "webpack": "^3.4.1"
   }
 }
