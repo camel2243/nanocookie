@@ -4,8 +4,14 @@
   "description": "nano vanilla.js cookie library",
   "main": "index.js",
   "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "camel",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "webpack": "^3.4.1"
+  }
 }
