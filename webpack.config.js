@@ -5,7 +5,7 @@ const webpack = require("webpack");
 module.exports = {
   context: __dirname,
   entry: {
-    nanocookie: "./src/nanocookie.js"
+    nanocookie: "./src/index.js"
   },
   output: {
     filename: "./dist/[name].min.js",
@@ -23,7 +23,7 @@ module.exports = {
       {
         test: /\.js$/,
         loaders: ["babel-loader"],
-        include: path.resolve(__dirname, "assets/src/")
+        include: path.resolve(__dirname, "./src")
       }
     ]
   },
