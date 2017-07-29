@@ -21,7 +21,7 @@ npm install nanocookie --save-dev
 
 * Import in ECMAScript 6
 ```
-Import cookie from 'nanocookie';
+import cookie from 'nanocookie';
 ```
 
 * Import in ECMAScript 5
