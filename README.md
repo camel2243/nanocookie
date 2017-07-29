@@ -15,9 +15,31 @@ nanocookie.min.js file size: 4KB
 * install nanocookie npm package
 ```
 npm install nanocookie --save-dev
+```
 
+### Import library
+
+* Import in ECMAScript 6
+```
+Import cookie from 'nanocookie';
+```
+
+* Import in ECMAScript 5
+```
 var cookie = require('nanocookie');
+```
 
+* Use from browser global
+```
+<script src="path/to/react-bootstrap-table/dist/nanocookie.min.js" />
+<script>
+  var cookie = window.nanocookie;
+  //...
+</script>
+```
+
+* Get Started
+```
 cookie.set('user', 'camel');  // set cookie user:camel
 cookie.get('user');           // get cookie 'camel'
 cookie.delete('user');        // delete cookie
