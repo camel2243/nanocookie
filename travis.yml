@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "iojs"
+notifications:
+  slack:
+    on_success: always
+    on_failure: always
+   email:
+    - a556622821@gmail.com
+after_success: 'npm run coveralls'
