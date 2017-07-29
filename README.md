@@ -1,6 +1,7 @@
 # nanocookie
 > nano cookie operate library
 
+![Build Status](https://travis-ci.org/camel2243/nanocookie.svg?branch=master)
 ![npm version](https://badge.fury.io/js/nanocookie.svg)
 ![Coverage Status](https://coveralls.io/repos/camel2243/nanocookie/badge.svg?branch=master)
 
