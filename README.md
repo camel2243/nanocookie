@@ -1,4 +1,5 @@
 # nanocookie
+> nano cookie operate library
 [![npm version](https://badge.fury.io/js/nanocookie.svg)](https://badge.fury.io/js/nanocookie)
 nano vanilla.js cookie set, get and delete libray
 
@@ -23,7 +24,7 @@ cookie.delete('user');        // delete cookie
 Parameters:</br>
 * `name`: String, cookie name
 * `value`: String, cookie value
-* `exdays`: Integer, expired days(default is 1 day)
+* `exdays`: Integer, expires days(default is 1 day)
 
 ### get(name)
 Parameters:</br>
