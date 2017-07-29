@@ -1,5 +1,5 @@
 # nanocookie
-> nano cookie operate library
+> nano cookie operate library<br />
 [![npm version](https://badge.fury.io/js/nanocookie.svg)](https://badge.fury.io/js/nanocookie)
 nano vanilla.js cookie set, get and delete libray
 
