@@ -5,11 +5,12 @@ const webpack = require('webpack');
 module.exports = {
   context: __dirname,
   entry: {
-    'nanocookie.min': './src/index.js',
     'nanocookie': './src/nanocookie.js'
   },
   output: {
-    filename: "./dist/[name].js",
+    filename: "./dist/[name].min.js",
+    libraryTarget: "umd",
+    library: "nanocookie"
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),
