@@ -1,14 +1,15 @@
 /* global __dirname */
-const path = require("path");
-const webpack = require("webpack");
+const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   context: __dirname,
   entry: {
-    nanocookie: "./src/index.js"
+    'nanocookie.min': './src/index.js',
+    'nanocookie': './src/nanocookie.js'
   },
   output: {
-    filename: "./dist/[name].min.js",
+    filename: "./dist/[name].js",
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin(),

@@ -2,7 +2,7 @@
   "name": "nanocookie",
   "version": "0.0.5",
   "description": "nano vanilla.js cookie library",
-  "main": "src/index.js",
+  "main": "dist/nanocookie.js",
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js --progress --colors",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- --recursive ./tests/",
