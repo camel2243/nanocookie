@@ -1,6 +1,6 @@
 {
   "name": "nanocookie",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "nano vanilla.js cookie library",
   "main": "dist/nanocookie.js",
   "scripts": {
