@@ -11,7 +11,7 @@ module.exports = {
     document.cookie = name + "=" + value + ";" + expires + ";path=/";
   },
   get: function(name) {
-    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+    let match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
 
     return (match ? match[2] : '');
   },
