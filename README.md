@@ -31,7 +31,7 @@ var cookie = require('nanocookie');
 
 * Use from browser global
 ```
-<script src="path/to/react-bootstrap-table/dist/nanocookie.min.js" />
+<script src="path/to/nanocookie.min.js" />
 <script>
   var cookie = window.nanocookie;
   //...
